@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-type ButtonProp = {
+export type ButtonProp = {
   children: ReactNode;
 };
 
