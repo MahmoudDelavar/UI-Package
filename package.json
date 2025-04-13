@@ -1,6 +1,6 @@
 {
   "name": "mdp-ui-package",
-  "version": "1.0.2-0",
+  "version": "1.0.2-2",
   "description": "",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -17,7 +17,7 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "release-it",
+    "release": "release-it --interactive",
     "lint": "eslint . --ext .ts,.tsx",
     "build": "tsup",
     "type-check": "tsc --noEmit",
