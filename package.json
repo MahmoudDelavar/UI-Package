@@ -19,10 +19,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "release-it",
     "lint": "eslint . --ext .ts,.tsx",
-    "build": "tsup"
+    "build": "tsup",
+    "type-check": "tsc --noEmit",
+    "spell-check": "cspell lint \"**\""
   },
   "keywords": [],
-  "author": "Mahmoud Delavar",
   "license": "ISC",
   "packageManager": "pnpm@10.6.5",
   "devDependencies": {
@@ -33,6 +34,7 @@
     "@typescript-eslint/eslint-plugin": "^8.29.1",
     "@typescript-eslint/parser": "^8.29.1",
     "autoprefixer": "^10.4.21",
+    "cspell": "^8.18.1",
     "eslint": "^9.24.0",
     "eslint-config-prettier": "^10.1.2",
     "eslint-flat-config-utils": "^2.0.1",
