@@ -1,0 +1,16 @@
+{
+  "$schema": "https://unpkg.com/release-it@17/schema/release-it.json",
+  "git": {
+    "commitMessage": "Release v${version}"
+  },
+  "github": {
+    "release": true
+  },
+  "npm": {
+    "skipChecks": true,
+    "publish": true
+  },
+  "hooks": {
+    "before:init": "pnpm build"
+  }
+}
