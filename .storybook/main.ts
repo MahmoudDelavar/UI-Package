@@ -5,12 +5,13 @@ const config: StorybookConfig = {
     '@storybook/addon-essentials',
     '@storybook/addon-onboarding',
     '@storybook/addon-interactions',
+    '@storybook/addon-postcss',
   ],
   framework: {
     name: '@storybook/react-vite',
     options: {},
   },
-  stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
+  stories: ['../src/**/*.stories.tsx'],
 };
 
 export default config;
