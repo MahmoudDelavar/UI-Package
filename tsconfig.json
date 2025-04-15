@@ -16,6 +16,12 @@
     "isolatedModules": true,
     "noEmit": false
   },
-  "include": ["src"],
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
+    "./tailwind.config.ts",
+    "./.storybook/**/*.ts",
+    "./.storybook/**/*.tsx"
+  ],
   "exclude": ["dist", "node_modules"]
 }

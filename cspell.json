@@ -1,4 +1,11 @@
 {
   "language": "en",
-  "ignorePaths": ["node_module", "dist", "pnpm-lock.yaml"]
+  "ignorePaths": [
+    "node_module",
+    "dist",
+    "pnpm-lock.yaml"
+  ],
+  "words": [
+    "autodocs"
+  ]
 }
