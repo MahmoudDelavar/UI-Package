@@ -1,5 +1,5 @@
 /* eslint-disable perfectionist/sort-objects */
-export const radius = {
+export const Radius = {
   none: '0px',
   xs: '4px',
   sm: '8px',

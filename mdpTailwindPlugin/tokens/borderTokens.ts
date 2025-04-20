@@ -1,5 +1,5 @@
 /* eslint-disable perfectionist/sort-objects */
-export const border = {
+export const Border = {
   none: '0px',
   xs: '1px',
   sm: '2px',

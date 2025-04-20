@@ -21,7 +21,8 @@
     "./src/**/*.tsx",
     "./tailwind.config.ts",
     "./.storybook/**/*.ts",
-    "./.storybook/**/*.tsx"
+    "./.storybook/**/*.tsx",
+    "mdpTailwindPlugin/**/*.ts"
   ],
   "exclude": ["dist", "node_modules"]
 }
