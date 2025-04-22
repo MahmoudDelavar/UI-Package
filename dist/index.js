@@ -47,7 +47,8 @@ var getButtonClassNames = (0, import_class_variance_authority.cva)("transition-c
       false: "",
       true: [
         "!bg-primary-disabled !text-disabled",
-        "hover:!bg-primary-disabled active:!bg-primary-disabled"
+        "hover:!bg-primary-disabled active:!bg-primary-disabled",
+        "hover:cursor-not-allowed"
       ]
     },
     intent: {

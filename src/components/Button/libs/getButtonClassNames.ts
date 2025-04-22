@@ -12,6 +12,7 @@ export const getButtonClassNames = cva('transition-colors', {
       true: [
         '!bg-primary-disabled !text-disabled',
         'hover:!bg-primary-disabled active:!bg-primary-disabled',
+        'hover:cursor-not-allowed',
       ],
     },
     intent: {

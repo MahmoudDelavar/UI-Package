@@ -1,0 +1,1 @@
+export { mdpTailwindPlugin } from './mdpTailwindPlugin';
